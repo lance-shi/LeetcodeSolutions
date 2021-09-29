@@ -1,3 +1,5 @@
+# Question No. 263
+# Ugly Number
 class Solution:
     def isUgly(self, n: int) -> bool:
         if n <= 0:

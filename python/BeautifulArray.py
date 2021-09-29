@@ -1,3 +1,5 @@
+# Question No. 932
+# Beautiful Array
 class Solution:
     def beautifulArray(self, n: int) -> List[int]:
         answer = [3,1,2]

@@ -1,3 +1,5 @@
+# Question No. 264
+# Ugly Number Two
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
         ugly_list = [1]
