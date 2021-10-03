@@ -3,10 +3,10 @@
 class Solution:
     def canJump(self, nums):
         possibleReach = 0
-        for i in range(len(nums)):
+        for i, num in enumerate(nums):
             if i > possibleReach:
                 return False
-            possibleReach = max(possibleReach, i + nums[i])
+            possibleReach = max(possibleReach, i + num)
             if possibleReach >= len(nums):
                 return True
         return True
