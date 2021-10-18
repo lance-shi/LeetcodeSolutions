@@ -1,5 +1,6 @@
 # Question No. 437
 # Path Sum three
+# Original Solution
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
