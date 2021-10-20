@@ -5,7 +5,7 @@ class Solution:
         stack, next_map = [], dict()
         for num in nums2[::-1]:
             while stack and num > stack[-1]:
-                stack.pop()
+                stack.pop() # Should this be a binary search here? 
             next_map[num] = stack[-1] if stack else -1
             stack.append(num)
         for i, num in enumerate(nums1):
