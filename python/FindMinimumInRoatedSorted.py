@@ -23,7 +23,8 @@ class Solution:
             return searchMin(l, r)
         return searchMin(l, r)
 
-    #Linear solution
+    # Linear solution
+    # Actually faster than the previous one
     def findMinLinear(self, nums: List[int]) -> int:
         if nums[0] < nums[-1]:
             return nums[0]
