@@ -1,5 +1,6 @@
 # Question No. 75
 # Sort Colors
+# Original solution
 class Solution:
     def sortColors(self, nums) -> None:
         r = g = 0
