@@ -35,5 +35,3 @@ class Solution:
             rot = rotting
 
         return -1
-
-
